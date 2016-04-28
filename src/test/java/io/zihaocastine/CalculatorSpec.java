@@ -16,4 +16,12 @@ public class CalculatorSpec {
         assertEquals("The expected value should be 2", expectedSum, actualSum);
 
     }
+    @Test
+    public void productTest(){
+        Calculator calculator=new Calculator();
+        int expectedProduct=12;
+        int actualProduct=calculator.product(3,4);
+        assertEquals("The expected value should be 12", expectedProduct,actualProduct);
+
+    }
 }

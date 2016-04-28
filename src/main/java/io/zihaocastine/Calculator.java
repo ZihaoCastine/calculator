@@ -10,6 +10,10 @@ public class Calculator {
         return value1+value2;
 
     }
+    public int product(int num1, int num2){
+        return num1 * num2;
+    }
 
+    
 
 }
